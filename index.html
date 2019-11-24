@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-
-<head>
-
+  <head>
     <!--- basic page needs
     ================================================== -->
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>A two planet species</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
     <!-- mobile specific metas
     ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
 
     <!-- CSS
     ================================================== -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
+    <link rel="stylesheet" href="css/main.css" />
 
     <!-- script
     ================================================== -->
@@ -27,245 +31,286 @@
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
 
-</head>
-
-<body id="top">
-
+  <body id="top">
     <!-- preloader
     ================================================== -->
     <div id="preloader">
-        <div id="loader" class="dots-fade">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+      <div id="loader" class="dots-fade">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
-
 
     <!-- header
     ================================================== -->
     <header class="s-header header">
+      <div class="header__logo">
+        <a class="logo" href="index.html"> TWO PLANET SPECIES</a>
+      </div>
+      <!-- end header__logo -->
 
-        <div class="header__logo">
-            <a class="logo" href="index.html"> TWO PLANET SPECIES</a>
-        </div> <!-- end header__logo -->
+      <a class="header__search-trigger" href="#0"></a>
+      <div class="header__search">
+        <form role="search" method="get" class="header__search-form" action="#">
+          <label>
+            <span class="hide-content">Search for:</span>
+            <input
+              type="search"
+              class="search-field"
+              placeholder="Type Keywords"
+              value=""
+              name="s"
+              title="Search for:"
+              autocomplete="off"
+            />
+          </label>
+          <input type="submit" class="search-submit" value="Search" />
+        </form>
 
-        <a class="header__search-trigger" href="#0"></a>
-        <div class="header__search">
+        <a href="#0" title="Close Search" class="header__overlay-close"
+          >Close</a
+        >
+      </div>
+      <!-- end header__search -->
 
-            <form role="search" method="get" class="header__search-form" action="#">
-                <label>
-                    <span class="hide-content">Search for:</span>
-                    <input type="search" class="search-field" placeholder="Type Keywords" value="" name="s"
-                        title="Search for:" autocomplete="off">
-                </label>
-                <input type="submit" class="search-submit" value="Search">
-            </form>
+      <a class="header__toggle-menu" href="#0" title="Menu"
+        ><span>Menu</span></a
+      >
+      <nav class="header__nav-wrap">
+        <h2 class="header__nav-heading h6">Navigate to</h2>
 
-            <a href="#0" title="Close Search" class="header__overlay-close">Close</a>
+        <ul class="header__nav">
+          <li class="current"><a href="index.html" title="">Home</a></li>
+          <!-- <li><a href="#" title="">Concepts</a></li> -->
+          <!-- <li><a href="blog.html" title="">Blog</a></li> -->
+          <!-- <li><a href="#" title="">Research</a></li> -->
+          <li><a href="page-about.html" title="">About</a></li>
+          <li><a href="page-contact.html" title="">Contact</a></li>
+        </ul>
+        <!-- end header__nav -->
 
-        </div> <!-- end header__search -->
-
-        <a class="header__toggle-menu" href="#0" title="Menu"><span>Menu</span></a>
-        <nav class="header__nav-wrap">
-
-            <h2 class="header__nav-heading h6">Navigate to</h2>
-
-            <ul class="header__nav">
-                <li class="current"><a href="index.html" title="">Home</a></li>
-                <li><a href="#" title="">Concepts</a></li>
-                <li><a href="#" title="">Blog</a></li>
-                <li><a href="#" title="">Research</a></li>
-                <li><a href="page-about.html" title="">About</a></li>
-                <li><a href="page-contact.html" title="">Contact</a></li>
-            </ul> <!-- end header__nav -->
-
-            <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
-
-        </nav> <!-- end header__nav-wrap -->
-
-    </header> <!-- s-header -->
-
+        <a
+          href="#0"
+          title="Close Menu"
+          class="header__overlay-close close-mobile-menu"
+          >Close</a
+        >
+      </nav>
+      <!-- end header__nav-wrap -->
+    </header>
+    <!-- s-header -->
 
     <!-- featured 
     ================================================== -->
     <section class="s-featured">
-        <div class="row">
-            <div class="col-full">
+      <div class="row">
+        <div class="col-full">
+          <div class="featured-slider featured" data-aos="zoom-in">
+            <div class="featured__slide">
+              <div class="entry">
+                <div
+                  class="entry__background"
+                  style="background-image:url('images/mars.jpg');"
+                ></div>
 
-                <div class="featured-slider featured" data-aos="zoom-in">
+                <div class="entry__content">
+                  <span class="entry__category"
+                    ><a href="projects.html">Projects</a></span
+                  >
 
-                    <div class="featured__slide">
-                        <div class="entry">
+                  <h1>
+                    <a href="projects.html" title="">Our work in progress.</a>
+                  </h1>
+                </div>
+                <!-- end entry__content -->
+              </div>
+              <!-- end entry -->
+            </div>
+            <!-- end featured__slide -->
 
-                            <div class="entry__background" style="background-image:url('images/mars.jpg');"></div>
+            <div class="featured__slide">
+              <div class="entry">
+                <div
+                  class="entry__background"
+                  style="background-image:url('images/rover.jpg');"
+                ></div>
 
-                            <div class="entry__content">
-                                <span class="entry__category"><a href="projects.html">Projects</a></span>
+                <div class="entry__content">
+                  <span class="entry__category"
+                    ><a href="concepts.html">Concepts</a></span
+                  >
 
-                                <h1><a href="projects.html" title="">Our work in progress.</a></h1>
-                            </div> <!-- end entry__content -->
+                  <h1><a href="concepts.html" title="">Our early ideas.</a></h1>
+                </div>
+                <!-- end entry__content -->
+              </div>
+              <!-- end entry -->
+            </div>
+            <!-- end featured__slide -->
 
-                        </div> <!-- end entry -->
-                    </div> <!-- end featured__slide -->
+            <div class="featured__slide">
+              <div class="entry">
+                <div
+                  class="entry__background"
+                  style="background-image:url('images/astro.jpg');"
+                ></div>
 
-                    <div class="featured__slide">
+                <div class="entry__content">
+                  <span class="entry__category"
+                    ><a href="research.html">Research</a></span
+                  >
 
-                        <div class="entry">
-
-                            <div class="entry__background" style="background-image:url('images/rover.jpg');"></div>
-
-                            <div class="entry__content">
-                                <span class="entry__category"><a href="concepts.html">Concepts</a></span>
-
-                                <h1><a href="concepts.html" title="">Our early ideas.</a></h1>
-                            </div> <!-- end entry__content -->
-
-                        </div> <!-- end entry -->
-
-                    </div> <!-- end featured__slide -->
-
-                    <div class="featured__slide">
-
-                        <div class="entry">
-
-                            <div class="entry__background" style="background-image:url('images/astro.jpg');"></div>
-
-                            <div class="entry__content">
-                                <span class="entry__category"><a href="research.html">Research</a></span>
-
-                                <h1><a href="research.html" title="">Insights and research.</a></h1>
-
-                            </div> <!-- end entry__content -->
-
-                        </div> <!-- end entry -->
-
-                    </div> <!-- end featured__slide -->
-
-                </div> <!-- end featured -->
-
-            </div> <!-- end col-full -->
+                  <h1>
+                    <a href="research.html" title="">Insights and research.</a>
+                  </h1>
+                </div>
+                <!-- end entry__content -->
+              </div>
+              <!-- end entry -->
+            </div>
+            <!-- end featured__slide -->
+          </div>
+          <!-- end featured -->
         </div>
-    </section> <!-- end s-featured -->
-
+        <!-- end col-full -->
+      </div>
+    </section>
+    <!-- end s-featured -->
 
     <!-- s-content
     ================================================== -->
     <section class="s-content">
+      <div class="row entries-wrap wide">
+        <div class="entries">
+          <article class="col-block">
+            <div class="item-entry" data-aos="zoom-in">
+              <div class="item-entry__thumb">
+                <a href="mars-timeline.html" class="item-entry__thumb-link">
+                  <img
+                    src="images/timeline.jpg"
+                    srcset="images/timeline.jpg 1x, images/timeline.jpg 2x"
+                    alt=""
+                  />
+                </a>
+              </div>
 
-        <div class="row entries-wrap wide">
-            <div class="entries">
+              <div class="item-entry__text">
+                <div class="item-entry__cat">
+                  <a href="category.html">Research</a>
+                </div>
 
-                <article class="col-block">
+                <h1 class="item-entry__title">
+                  <a href="mars-timeline.html">Timeline Research</a>
+                </h1>
 
-                    <div class="item-entry" data-aos="zoom-in">
-                        <div class="item-entry__thumb">
-                            <a href="mars-timeline.html" class="item-entry__thumb-link">
-                                <img src="images/timeline.jpg" srcset="images/timeline.jpg 1x, images/timeline.jpg 2x"
-                                    alt="">
-                            </a>
-                        </div>
+                <div class="item-entry__date">
+                  <a href="mars-timeline.html">November 9, 2019</a>
+                </div>
+              </div>
+            </div>
+            <!-- item-entry -->
+          </article>
+          <!-- end article -->
 
-                        <div class="item-entry__text">
-                            <div class="item-entry__cat">
-                                <a href="category.html">Research</a>
-                            </div>
+          <article class="col-block">
+            <div class="item-entry" data-aos="zoom-in">
+              <div class="item-entry__thumb">
+                <a href="scoby.html" class="item-entry__thumb-link">
+                  <img
+                    src="images/growth.JPG"
+                    srcset="images/growth.JPG 1x, images/growth.JPG 2x"
+                    alt=""
+                  />
+                </a>
+              </div>
 
-                            <h1 class="item-entry__title"><a href="mars-timeline.html">Timeline Research</a></h1>
+              <div class="item-entry__text">
+                <div class="item-entry__cat">
+                  <a href="#">Research</a>
+                </div>
 
-                            <div class="item-entry__date">
-                                <a href="mars-timeline.html">November 9, 2019</a>
-                            </div>
-                        </div>
-                    </div> <!-- item-entry -->
+                <h1 class="item-entry__title">
+                  <a href="scoby.html">Scoby Growth</a>
+                </h1>
 
-                </article> <!-- end article -->
-
-                <article class="col-block">
-
-                    <div class="item-entry" data-aos="zoom-in">
-                        <div class="item-entry__thumb">
-                            <a href="scoby.html" class="item-entry__thumb-link">
-                                <img src="images/growth.JPG" srcset="images/growth.JPG 1x, images/growth.JPG 2x" alt="">
-                            </a>
-                        </div>
-
-                        <div class="item-entry__text">
-                            <div class="item-entry__cat">
-                                <a href="#">Research</a>
-                            </div>
-
-                            <h1 class="item-entry__title"><a href="scoby.html">Scoby Growth</a></h1>
-
-                            <div class="item-entry__date">
-                                <a href="scoby.html">November 11, 2019</a>
-                            </div>
-                        </div>
-                    </div> <!-- item-entry -->
-
-                </article> <!-- end article -->
-
-
-            </div> <!-- end entries -->
-        </div> <!-- end entries-wrap -->
-    </section> <!-- end s-content -->
-
+                <div class="item-entry__date">
+                  <a href="scoby.html">November 11, 2019</a>
+                </div>
+              </div>
+            </div>
+            <!-- item-entry -->
+          </article>
+          <!-- end article -->
+        </div>
+        <!-- end entries -->
+      </div>
+      <!-- end entries-wrap -->
+    </section>
+    <!-- end s-content -->
 
     <!-- s-footer
     ================================================== -->
     <footer class="s-footer">
+      <div class="s-footer__main">
+        <div class="row">
+          <div class="col-six tab-full s-footer__about">
+            <h4>About ‘a two planet species’.</h4>
 
-        <div class="s-footer__main">
-            <div class="row">
+            <p>
+              We are a group of Design Engineering students at Imperial College
+              London exploring the design futures arising from the colonisation
+              of Mars. We are exploring concepts in the fields of manufacturing,
+              materials and culture.
+            </p>
+          </div>
+          <!-- end s-footer__about -->
 
-                <div class="col-six tab-full s-footer__about">
+          <div class="col-six tab-full s-footer__subscribe">
+            <h4>Newsletter</h4>
 
-                    <h4>About A two planet species</h4>
+            <p>
+              Enter your email address below to receive updates as the project
+              progresses.
+            </p>
 
-                    <p>bla bla bla .</p>
+            <div class="subscribe-form">
+              <form id="mc-form" class="group" novalidate="true">
+                <input
+                  type="email"
+                  value=""
+                  name="EMAIL"
+                  class="email"
+                  id="mc-email"
+                  placeholder="Email Address"
+                  required=""
+                />
 
-                </div> <!-- end s-footer__about -->
+                <input type="submit" name="subscribe" value="Send" />
 
-                <div class="col-six tab-full s-footer__subscribe">
-
-                    <h4>Our Newsletter</h4>
-
-                    <p>Get updated about our progress.</p>
-
-                    <div class="subscribe-form">
-                        <form id="mc-form" class="group" novalidate="true">
-
-                            <input type="email" value="" name="EMAIL" class="email" id="mc-email"
-                                placeholder="Email Address" required="">
-
-                            <input type="submit" name="subscribe" value="Send">
-
-                            <label for="mc-email" class="subscribe-message"></label>
-
-                        </form>
-                    </div>
-
-                </div> <!-- end s-footer__subscribe -->
-
+                <label for="mc-email" class="subscribe-message"></label>
+              </form>
             </div>
-        </div> <!-- end s-footer__main -->
-
-        <div class="go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top"></a>
+          </div>
+          <!-- end s-footer__subscribe -->
         </div>
+      </div>
+      <!-- end s-footer__main -->
 
-    </footer> <!-- end s-footer -->
-
+      <div class="go-top">
+        <a class="smoothscroll" title="Back to Top" href="#top"></a>
+      </div>
+    </footer>
+    <!-- end s-footer -->
 
     <!-- Java Script
     ================================================== -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-
-</body>
-
+  </body>
 </html>
